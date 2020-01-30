@@ -8,7 +8,7 @@ def line(katz_deli)
     position = 1   
     katz_deli.each do |customer|
        other_line.push "#{position}. #{customer}"
-       
+    position += 1   
     end   
   end   
 end
