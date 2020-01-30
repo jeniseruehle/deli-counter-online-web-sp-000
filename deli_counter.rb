@@ -9,7 +9,8 @@ def line(katz_deli)
     katz_deli.each do |customer|
        other_line.push "#{position}. #{customer}"
     position += 1   
-    end   
+    end
+    puts "The line is currently: #{other_line"
   end   
 end
 
