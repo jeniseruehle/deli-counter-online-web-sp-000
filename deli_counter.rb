@@ -10,7 +10,7 @@ def line(katz_deli)
        other_line.push "#{position}. #{customer}"
     position += 1   
     end
-    puts "The line is currently: #{other_line.join}"
+    puts "The line is currently: #{other_line.join(" ")}"
   end   
 end
 
