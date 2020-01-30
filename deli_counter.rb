@@ -1,11 +1,12 @@
 katz_deli = []
 
 def line(katz_deli)
+  other_line =[]
   if katz_deli.length == 0 
     puts "The line is currently empty."
   elsif
     katz_deli.each_with_index do |customer, index|
-      puts "The line is currently: #{index}. #{customer}"
+      puts "The line is currently: #{index+1}. #{customer}"
     end   
   end   
 end
