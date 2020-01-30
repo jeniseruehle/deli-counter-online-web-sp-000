@@ -7,7 +7,8 @@ def line(katz_deli)
   elsif
     position = 1   
     katz_deli.each do |customer|
-       other_line.push 
+       other_line.push "#{position}. #{customer}"
+       
     end   
   end   
 end
