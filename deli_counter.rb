@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif
     katz_deli.each_with_index do |customer, index|
-      puts "The line is currently: #{index}. #{customer}" if customer > 0
+      puts "The line is currently: #{index}. #{customer}"
     end   
   end   
 end
